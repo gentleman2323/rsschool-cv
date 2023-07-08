@@ -1,4 +1,98 @@
 body {
-    background-image: url('/images/Mikhail.jpg');
-    background-size: cover;
+  background-image: url("images/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 50px;
+  font-size: 24px;
+}
+
+  h1 {
+    color: #00F;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .profile-img {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+  }
+
+  .profile-info {
+    flex-grow: 1;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+     
+    .information::before {
+      margin-bottom: 20px;
+      content: "I am an ambitious and motivated Junior Developer.";
+    }
+    
+    @media (max-width: 600px) {
+      .information::before {
+        content: "Brief information about myself:";
+      
+    }
+  }
+
+  .skills {
+    margin-bottom: 20px;
+  }
+
+  .code-examples table {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+    .code-examples td {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 600px) {
+    .code-examples th,
+    .code-examples td {
+      width: 100%;
+    }
+  }
+
+  .experience {
+    margin-bottom: 20px;
+  }
+
+  .education {
+    margin-bottom: 20px;
+  }
+
+  .language {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    margin-bottom: 20px;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .footer img {
+    max-width: 50px;
+    max-height: 50px;
   }
